@@ -8,3 +8,26 @@ $white: #f9f9f9;
 
 $headings-stack: "Trajan Pro", serif;
 $body-stack: "DIN", sans-serif;
+
+/* FLEXBOX GRID */
+
+.flex-grid {
+	display: flex;
+	justify-content: space-between;
+
+	.col {
+		flex: 1;
+	}
+
+	.col.third {
+		width: 32%;
+	}
+
+	.col.half {
+		width: 49%;
+	}
+
+	.col.quarter {
+		width: 24%;
+	}
+}

@@ -1,0 +1,1 @@
+.flex-grid{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.flex-grid .col{-webkit-box-flex:1;-ms-flex:1;flex:1}.flex-grid .col.third{width:32%}.flex-grid .col.half{width:49%}.flex-grid .col.quarter{width:24%}
