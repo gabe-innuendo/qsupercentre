@@ -26,3 +26,44 @@
 .flex-grid .col.quarter {
   width: 24%;
 }
+
+/* HEADER / NAVIGATION */
+.main-header {
+  background-color: #000;
+  color: #f9f9f9;
+  height: 70px;
+}
+
+.clock-icon {
+  max-width: 30%;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.opening-times-container {
+  margin: 16px;
+}
+
+.opening-times {
+  max-width: 70%;
+  display: inline-block;
+  padding-left: 7px;
+}
+
+.opening-times p {
+  margin: 0rem;
+  font-size: 13px;
+}
+
+.logo-container img {
+  max-width: 100px;
+  display: table;
+  margin: 10px auto;
+}
+
+.social-header-container {
+  font-size: 13px;
+  line-height: 70px;
+  text-align: right;
+  margin-right: 16px;
+}
