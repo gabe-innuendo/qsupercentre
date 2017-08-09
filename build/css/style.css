@@ -35,10 +35,18 @@ SITE WIDE STYLES
 
 /* Basic page styles */
 body {
-  font-size: 14px;
+  font-size: 13px;
   background-color: #000;
   color: #f9f9f9;
   font-family: "din-2014", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 /* Headings and paragraphs */
@@ -82,7 +90,7 @@ h6 {
   display: inline-block;
   text-decoration: none;
   background-color: #f9f9f9;
-  color: #212121;
+  color: #2a292a;
   font-size: 1rem;
   border: none;
   font-family: "din-2014", sans-serif;
@@ -92,8 +100,12 @@ h6 {
   transition: background-color 0.15s ease-in, color 0.15s ease-in;
 }
 
+.button:active {
+  background-color: #1b91af;
+}
+
 .button:hover {
-  background-color: #212121;
+  background-color: #2a292a;
   color: #f9f9f9;
 }
 
@@ -116,8 +128,9 @@ h6 {
 /* 
 HEADER / NAVIGATION 
 */
+/* Header */
 .main-header {
-  background-color: #212121;
+  background-color: #2a292a;
   color: #f9f9f9;
   height: 70px;
   font-family: "din-2014", sans-serif;
@@ -130,7 +143,7 @@ HEADER / NAVIGATION
 }
 
 .opening-times-container {
-  margin: 16px;
+  margin: 18px;
 }
 
 .opening-times {
@@ -155,4 +168,57 @@ HEADER / NAVIGATION
   line-height: 70px;
   text-align: right;
   margin-right: 16px;
+}
+
+/* Navigation */
+.header-navigation {
+  background-color: #f9f9f9;
+}
+
+.header-navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header-navigation ul li {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  max-width: 100%;
+  border-right: 1px solid #c6c6c6;
+  text-align: center;
+}
+
+.header-navigation ul li:last-child {
+  border-right: none;
+}
+
+.header-navigation ul li a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  width: 100%;
+  padding: 12px 0 10px 0;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.15s ease, color 0.15s ease, border-bottom 0.15s ease;
+  transition: background-color 0.15s ease, color 0.15s ease, border-bottom 0.15s ease;
+  border-bottom: #f9f9f9 2px solid;
+}
+
+.header-navigation ul li a:hover {
+  background-color: #1b91af;
+  color: #f9f9f9;
+  border-bottom: #1b91af 2px solid;
+  border-color: #1b91af;
+}
+
+.header-navigation ul li .active {
+  border-bottom: 2px solid #1b91af;
 }
