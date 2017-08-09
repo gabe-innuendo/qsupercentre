@@ -1,6 +1,9 @@
-/* COLOUR VARIABLES */
-/* FONTS */
-/* FLEXBOX GRID */
+/*
+SITE WIDE STYLES 
+*/
+/* Colour variables */
+/* Fonts */
+/* Flexbox grid */
 .flex-grid {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,6 +11,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  max-width: 1920px;
+  margin: 0px auto;
 }
 
 .flex-grid .col {
@@ -28,9 +33,55 @@
   width: 24%;
 }
 
-/* HEADER / NAVIGATION */
-.main-header {
+/* Basic page styles */
+body {
+  font-size: 14px;
   background-color: #000;
+  color: #f9f9f9;
+}
+
+/* Headings and paragraphs */
+h1, h2, h3, h4 {
+  font-family: "trajan-pro-3", serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-family: "din-2014", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+h6 {
+  font-family: "din-2014", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+/* Buttons and links */
+/* 
+HEADER / NAVIGATION 
+*/
+.main-header {
+  background-color: #212121;
   color: #f9f9f9;
   height: 70px;
   font-family: "din-2014", sans-serif;
