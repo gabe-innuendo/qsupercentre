@@ -1,4 +1,5 @@
 /* COLOUR VARIABLES */
+/* FONTS */
 /* FLEXBOX GRID */
 .flex-grid {
   display: -webkit-box;
@@ -32,6 +33,7 @@
   background-color: #000;
   color: #f9f9f9;
   height: 70px;
+  font-family: "din-2014", sans-serif;
 }
 
 .clock-icon {
