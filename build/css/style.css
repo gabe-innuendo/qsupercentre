@@ -38,6 +38,7 @@ body {
   font-size: 14px;
   background-color: #000;
   color: #f9f9f9;
+  font-family: "din-2014", sans-serif;
 }
 
 /* Headings and paragraphs */
@@ -77,6 +78,41 @@ h6 {
 }
 
 /* Buttons and links */
+.button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #f9f9f9;
+  color: #212121;
+  font-size: 1rem;
+  border: none;
+  font-family: "din-2014", sans-serif;
+  cursor: pointer;
+  border: 1px #f9f9f9 solid;
+  -webkit-transition: background-color 0.15s ease-in, color 0.15s ease-in;
+  transition: background-color 0.15s ease-in, color 0.15s ease-in;
+}
+
+.button:hover {
+  background-color: #212121;
+  color: #f9f9f9;
+}
+
+.link.button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.social.button {
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 26px;
+  margin: 0 0 0 5px;
+}
+
 /* 
 HEADER / NAVIGATION 
 */

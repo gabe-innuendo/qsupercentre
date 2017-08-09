@@ -46,6 +46,7 @@ body {
 	font-size: 14px;
 	background-color: $black;
 	color: $white;
+	font-family: $body-stack;
 }
 
 /* Headings and paragraphs */
@@ -85,6 +86,40 @@ h6 {
 }
 
 /* Buttons and links */
+
+.button {
+	display: inline-block;
+	text-decoration: none;
+	background-color: $white;
+	color: $light-black;
+	font-size: 1rem;
+	border: none;
+	font-family: $body-stack;
+	cursor: pointer;
+	border: 1px $white solid;
+	transition: background-color 0.15s ease-in, color 0.15s ease-in;
+
+	&:hover {
+		background-color: $light-black;
+		color: $white;
+	}
+}
+
+.link.button {
+	padding: 0.5rem 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.social.button {
+	height: 26px;
+	width: 26px;
+	border-radius: 50%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 26px;
+	margin: 0 0 0 5px;
+} 
 
 
 /* 
