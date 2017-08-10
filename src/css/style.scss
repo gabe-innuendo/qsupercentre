@@ -7,6 +7,7 @@ SITE WIDE STYLES
 $black: #000;
 $light-black: #2a292a;
 $grey: #c6c6c6;
+$dark-grey: #403f40;
 $teal: #1b91af;
 $white: #f9f9f9;
 
@@ -185,10 +186,12 @@ HEADER / NAVIGATION
 /* Navigation */
 .header-navigation {
 	background-color: $white;
+	position: relative;
 	
 	ul {
 		display: flex;
 		flex-direction: row;
+		z-index: 10;
 		
 		li {
 			flex-grow: 1;
@@ -224,5 +227,45 @@ HEADER / NAVIGATION
 			} 
 		}
 
+	}
+}
+
+/* Submenu Navigation */
+
+.header-navigation {
+	ul {
+		li {
+			ul {
+				z-index: -10;
+				background-color: $light-black;
+				position: absolute;
+				width: 100%;
+				left: 0;
+				top: 0px;
+				transition: all 0.15s ease;
+
+				li {
+					border-right: 1px solid $dark-grey;
+
+					a {
+						color: $white;
+						border-bottom: $dark-grey 1px solid;
+
+						&:hover {
+							background-color: $dark-grey;
+							color: $white;
+							border-bottom: $dark-grey;
+						}
+					}
+				}
+			}
+		
+		&:hover {
+				ul {
+					top: 38px;
+				}
+			}
+
+		}
 	}
 }
