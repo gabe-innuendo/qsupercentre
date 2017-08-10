@@ -235,6 +235,13 @@ HEADER / NAVIGATION
 .header-navigation {
 	ul {
 		li {
+						
+			.inline-icon {
+				color: $black;
+				padding-left: 12px;
+				transition: color 0.15s ease;
+			}
+
 			ul {
 				z-index: -10;
 				background-color: $light-black;
@@ -261,10 +268,15 @@ HEADER / NAVIGATION
 			}
 		
 		&:hover {
-				ul {
-					top: 38px;
-				}
+
+			.inline-icon {
+				color: $white;
 			}
+
+			ul {
+					top: 38px;
+			}
+		}
 
 		}
 	}

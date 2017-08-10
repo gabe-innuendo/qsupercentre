@@ -226,6 +226,13 @@ HEADER / NAVIGATION
 }
 
 /* Submenu Navigation */
+.header-navigation ul li .inline-icon {
+  color: #000;
+  padding-left: 12px;
+  -webkit-transition: color 0.15s ease;
+  transition: color 0.15s ease;
+}
+
 .header-navigation ul li ul {
   z-index: -10;
   background-color: #2a292a;
@@ -250,6 +257,10 @@ HEADER / NAVIGATION
   background-color: #403f40;
   color: #f9f9f9;
   border-bottom: #403f40;
+}
+
+.header-navigation ul li:hover .inline-icon {
+  color: #f9f9f9;
 }
 
 .header-navigation ul li:hover ul {
