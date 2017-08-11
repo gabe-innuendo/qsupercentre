@@ -93,6 +93,10 @@ h6 {
 	font-weight: 200;
 }
 
+a {
+	color: $teal;
+}
+
 /* Buttons and links */
 
 .button {
@@ -151,10 +155,19 @@ HEADER / NAVIGATION
 	max-width: 30%;
 	display: inline-block;
 	font-size: 30px;
+	line-height: 32px;
+	transition: all 0.15s ease;
 }
 
 .opening-times-container {
 	margin: 18px;
+	cursor: pointer;
+
+	&:hover {
+		.clock-icon {
+			font-size: 34px;
+		}
+	}
 }
 
 .opening-times {
@@ -181,6 +194,55 @@ HEADER / NAVIGATION
 	line-height: 70px;
 	text-align: right;
 	margin-right: 16px;
+}
+
+/* Opening hours pop-out */
+
+.opening-times-pop-out {
+	position: absolute;
+	box-sizing: border-box;
+	background-color: $light-black;
+	z-index: 30;
+	border: 1px solid $dark-grey;
+	padding: 2rem;
+	line-height: 1.25rem;
+	max-width: 320px;
+	left: -320px;
+	transition: left 0.3s ease;
+
+	table {
+		width: 320px;
+	}
+
+	h4 {
+		margin-top: 0;
+	}
+
+	p {
+		margin-bottom: 0;
+	}
+
+	.close {
+		position: absolute;
+		top: -1px;
+		right: -1px;
+		width: 25px;
+		height: 25px;
+		background-color: #ee5d61;
+		text-align: center;
+		line-height: 25px;
+		font-size: 15px;
+		cursor: pointer;
+		transition: font-size 0.15s ease;
+
+		&:hover {
+			font-size: 20px;
+		}
+	}
+}
+
+.opening-times-pop-out.open {
+	left: 0;
 }
 
 /* Navigation */
