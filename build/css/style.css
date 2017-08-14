@@ -11,7 +11,7 @@ SITE WIDE STYLES
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 1920px;
+  max-width: 1420px;
   margin: 0px auto;
 }
 
@@ -133,11 +133,23 @@ a {
 HEADER / NAVIGATION 
 */
 /* Header */
+.fixed-header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
 .main-header {
   background-color: #2a292a;
   color: #f9f9f9;
   height: 70px;
   font-family: "din-2014", sans-serif;
+  z-index: 100;
+}
+
+.main-body {
+  margin-top: 108px;
 }
 
 .clock-icon {
@@ -328,4 +340,13 @@ HEADER / NAVIGATION
 
 .header-navigation ul li:hover ul {
   top: 38px;
+}
+
+/* Unslider positioning */
+.front-page-slider {
+  width: 100%;
+}
+
+.front-page-slider ul li img {
+  width: 100%;
 }
