@@ -3,7 +3,8 @@ $( document ).ready(function() {
 	$('.front-page-slider').unslider({
 		arrows: false,
 		autoplay: true,
-		infinite: true
+		infinite: true,
+		delay: 6000
 	});
 
 });
