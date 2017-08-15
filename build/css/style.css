@@ -155,6 +155,11 @@ a {
   margin: 0 0 0 5px;
 }
 
+/* Helper classes */
+.align-right {
+  text-align: right;
+}
+
 /* 
 HEADER / NAVIGATION 
 */
@@ -486,4 +491,32 @@ HEADER / NAVIGATION
 
 .sidebar .fb-like-button:hover {
   background-color: #4d6eb9;
+}
+
+.retailer-logos {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-top: 1px solid #403f40;
+  border-bottom: 1px solid #403f40;
+}
+
+.retailer-logos .retailer-logo-container {
+  width: 100%;
+  text-align: center;
+}
+
+.retailer-logos .retailer-logo-container img {
+  max-width: 100%;
+}
+
+/* FOOTER STYLES */
+.main-footer {
+  border-top: #403f40;
+  padding: 3rem;
+}
+
+.main-footer .dog-badge {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
 }
