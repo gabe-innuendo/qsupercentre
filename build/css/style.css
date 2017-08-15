@@ -8,6 +8,8 @@ SITE WIDE STYLES
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .flex-grid-inline {
@@ -53,10 +55,16 @@ SITE WIDE STYLES
 
 .flex-grid .col.half, .flex-grid-inline .col.half {
   width: 49%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
 }
 
 .flex-grid .col.quarter, .flex-grid-inline .col.quarter {
   width: 24%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
 }
 
 /* Basic page styles */
@@ -121,9 +129,10 @@ a {
   text-decoration: none;
   background-color: #f9f9f9;
   color: #292929;
-  font-size: 1rem;
+  font-size: 13px;
   border: none;
   font-family: "din-2014", sans-serif;
+  font-weight: 100;
   cursor: pointer;
   border: 1px #f9f9f9 solid;
   -webkit-transition: background-color 0.15s ease-in, color 0.15s ease-in;
@@ -392,6 +401,7 @@ HEADER / NAVIGATION
 .main-body {
   margin-top: 108px;
   background-color: #292929;
+  padding: 2rem;
 }
 
 /* Landing page styles */
@@ -519,4 +529,27 @@ HEADER / NAVIGATION
   display: inline-block;
   vertical-align: middle;
   margin-left: 10px;
+}
+
+/* WHATS ON STYLES */
+.whats-on-story-box {
+  padding: 1rem;
+}
+
+.whats-on-story-box h5 {
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+}
+
+.whats-on-story-box .image-circle-crop {
+  width: 180px;
+  height: 180px;
+  max-width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.whats-on-story-box .image-circle-crop img {
+  max-height: 100%;
 }
