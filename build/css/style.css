@@ -8,6 +8,15 @@ SITE WIDE STYLES
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.flex-grid-inline {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.flex-grid, .flex-grid-inline {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -15,21 +24,38 @@ SITE WIDE STYLES
   margin: 0px auto;
 }
 
-.flex-grid .col {
+.flex-grid .col, .flex-grid-inline .col {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  vertical-align: middle;
 }
 
-.flex-grid .col.third {
+.flex-grid .col.grow, .flex-grid-inline .col.grow {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.flex-grid .col.third, .flex-grid-inline .col.third {
   width: 32%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
 }
 
-.flex-grid .col.half {
+.flex-grid .col.two-thirds, .flex-grid-inline .col.two-thirds {
+  width: 64%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.flex-grid .col.half, .flex-grid-inline .col.half {
   width: 49%;
 }
 
-.flex-grid .col.quarter {
+.flex-grid .col.quarter, .flex-grid-inline .col.quarter {
   width: 24%;
 }
 
@@ -369,6 +395,8 @@ HEADER / NAVIGATION
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  border-top: 1px solid #403f40;
+  border-bottom: 1px solid #403f40;
 }
 
 .navigation-boxes a {
@@ -386,6 +414,11 @@ HEADER / NAVIGATION
       -ms-flex: 0 1 auto;
           flex: 0 1 auto;
   width: 25%;
+  border-right: 1px solid #403f40;
+}
+
+.navigation-boxes li:last-child {
+  border-right: none;
 }
 
 .navigation-boxes li:hover {
@@ -398,4 +431,59 @@ HEADER / NAVIGATION
 
 .navigation-boxes li h3 {
   margin-bottom: 0;
+}
+
+.front-page-article {
+  padding: 3rem 5rem;
+  background-image: url(../images/q-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.front-page-article p {
+  line-height: 1.7em;
+}
+
+.sidebar {
+  padding: 0rem 3rem;
+  margin: 1.6rem 0;
+  border-left: 1px solid #403f40;
+}
+
+.sidebar .fb-profile-image {
+  max-width: 50px;
+}
+
+.sidebar span {
+  display: block;
+  padding-left: 1rem;
+}
+
+.sidebar .fb-page-name {
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar .fb-post-copy {
+  width: 100%;
+}
+
+.sidebar .fb-post-copy img {
+  max-width: 50%;
+  display: block;
+  padding: 1rem 0;
+}
+
+.sidebar .fb-like-button {
+  background-color: #3b5998;
+  color: #f9f9f9;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.sidebar .fb-like-button:hover {
+  background-color: #4d6eb9;
 }
