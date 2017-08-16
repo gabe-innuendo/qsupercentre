@@ -178,6 +178,7 @@ HEADER / NAVIGATION
 	top: 0;
 	z-index: 100;
 	width: 100%;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
 }
 
 .main-header {
@@ -407,6 +408,12 @@ HEADER / NAVIGATION
 	margin-top: 2rem;
 }
 
+.whats-on-main {
+	background-color: $light-black;
+	padding: 2rem;
+	margin-top: 2rem;
+}
+
 .main-body {
 	margin-top: 108px;
 	background-color: $light-black;
@@ -536,6 +543,23 @@ HEADER / NAVIGATION
 		vertical-align: middle;
 		margin-left: 10px;
 	}
+
+	.bottom-links {
+		ul {
+			list-style: none;
+			li {
+				display: inline-block;
+				padding-right: 1rem;
+				a {
+					color: $white;
+					&:hover {
+						color: $teal;
+					}
+				}
+			}
+		}
+	}
+
 }
 
 /* WHATS ON STYLES */
@@ -559,5 +583,64 @@ HEADER / NAVIGATION
 			max-height: 100%;
 		}
 		
+	}
+}
+
+/* SINGLE STYLES */
+.single-whats-on {
+	max-width: 850px;
+	margin: 108px auto 0 auto;
+	background-color: $light-black;
+	border: 1px solid $dark-grey;
+
+	.single-whats-on-main-image {
+		max-width: 100%;
+	}
+
+	header, main {
+		padding: 0 3rem;
+	}
+
+	header {
+		padding-top: 1rem;
+	}
+
+	main {
+		line-height: 1.5rem;
+	}
+
+	footer {
+
+		padding: 3rem;
+		padding-top: 1rem;
+
+		h6 {
+			margin: 0;
+		}
+
+		.other-whats-on-image-container {
+			display: inline-block;
+			vertical-align: middle;
+
+			.image-circle-crop {
+				width: 60px;
+				height: 60px;
+				max-width: 100%;
+				border-radius: 50%;
+				overflow: hidden;
+				text-align: center;
+
+				img {
+					max-height: 100%;
+				}
+			}
+		}
+
+		.other-whats-on-title-container {
+			display: inline-block;
+			vertical-align: middle;
+			max-width: 140px;
+			padding: 1rem;
+		}
 	}
 }
