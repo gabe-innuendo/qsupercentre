@@ -1,72 +1,10 @@
 /*
+
 SITE WIDE STYLES 
+
 */
 /* Colour variables */
 /* Fonts */
-/* Flexbox grid */
-.flex-grid {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.flex-grid-inline {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.flex-grid, .flex-grid-inline {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  max-width: 1420px;
-  margin: 0px auto;
-}
-
-.flex-grid .col, .flex-grid-inline .col {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  vertical-align: middle;
-}
-
-.flex-grid .col.grow, .flex-grid-inline .col.grow {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-}
-
-.flex-grid .col.third, .flex-grid-inline .col.third {
-  width: 32%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
-.flex-grid .col.two-thirds, .flex-grid-inline .col.two-thirds {
-  width: 64%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
-.flex-grid .col.half, .flex-grid-inline .col.half {
-  width: 49%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
-.flex-grid .col.quarter, .flex-grid-inline .col.quarter {
-  width: 24%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
 /* Basic page styles */
 body {
   font-size: 14px;
@@ -75,6 +13,11 @@ body {
   font-family: "din-2014", sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.flexGridRow {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 ul {
@@ -521,10 +464,28 @@ HEADER / NAVIGATION
 .retailer-logos .retailer-logo-container {
   width: 100%;
   text-align: center;
+  position: relative;
 }
 
 .retailer-logos .retailer-logo-container img {
   max-width: 100%;
+}
+
+.retailer-logos .retailer-logo-container .retailer-opening-hours {
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #c6c6c6;
+  color: #292929;
+  padding: 1rem;
+  text-align: left;
+  min-width: 200px;
+  -webkit-transition: opacity 0.15s ease;
+  transition: opacity 0.15s ease;
+  opacity: 0;
+}
+
+.retailer-logos .retailer-logo-container .retailer-opening-hours.visible {
+  opacity: 1;
 }
 
 /* FOOTER STYLES */
