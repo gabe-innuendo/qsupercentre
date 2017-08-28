@@ -21,7 +21,7 @@ $(".opening-times-pop-out .close").click(function(){
 	$(".opening-times-pop-out").removeClass("open");
 });
 
-$(".retailer-logo-container").hover(function(){
+$(".retailer-logo-container img").hover(function(){
 	$(this).find(".retailer-opening-hours").toggleClass("visible");
 });
 
