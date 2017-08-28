@@ -128,9 +128,15 @@ HEADER / NAVIGATION
 .main-header {
   background-color: #292929;
   color: #f9f9f9;
-  height: 70px;
+  height: 120px;
   font-family: "din-2014", sans-serif;
   z-index: 100;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.main-header.smaller {
+  height: 70px;
 }
 
 .clock-icon {
@@ -163,9 +169,15 @@ HEADER / NAVIGATION
 }
 
 .logo-container img {
-  max-width: 100px;
+  max-width: 200px;
   display: table;
   margin: 10px auto;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.logo-container img.smaller {
+  max-width: 100px;
 }
 
 .social-header-container {
@@ -334,7 +346,7 @@ HEADER / NAVIGATION
 
 .unslider-container {
   background-color: #000;
-  margin-top: 108px;
+  margin-top: 158px;
 }
 
 /* Main body styles */

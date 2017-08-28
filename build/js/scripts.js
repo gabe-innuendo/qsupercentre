@@ -24,3 +24,18 @@ $(".opening-times-pop-out .close").click(function(){
 $(".retailer-logo-container").hover(function(){
 	$(this).find(".retailer-opening-hours").toggleClass("visible");
 });
+
+$(window).scroll(function() {    
+
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 100) {
+        $(".main-header").addClass("smaller");
+        $(".logo-container img").addClass("smaller");
+    }
+
+    if (scroll <= 99) {
+        $(".main-header").removeClass("smaller");
+        $(".logo-container img").removeClass("smaller");
+    }
+});
