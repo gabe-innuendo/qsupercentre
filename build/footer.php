@@ -20,9 +20,6 @@
                         <a href="#" class="social button">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
-                        <a href="#" class="social button">
-                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                        </a>
                     </p>
                 </div>
             </div>

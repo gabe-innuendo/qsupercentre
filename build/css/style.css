@@ -273,12 +273,12 @@ HEADER / NAVIGATION
 .header-navigation ul li a:hover {
   background-color: #1b91af;
   color: #f9f9f9;
-  border-bottom: #1b91af 2px solid;
+  border-bottom: #1b91af 4px solid;
   border-color: #1b91af;
 }
 
 .header-navigation ul li .active {
-  border-bottom: 2px solid #1b91af;
+  border-bottom: 4px solid #1b91af;
 }
 
 /* Submenu Navigation */

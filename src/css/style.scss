@@ -277,13 +277,13 @@ HEADER / NAVIGATION
 				&:hover {
 					background-color: $teal;
 					color: $white;
-					border-bottom: $teal 2px solid;
+					border-bottom: $teal 4px solid;
 					border-color: $teal;
 				}
 			}
 
 			.active {
-				border-bottom: 2px solid $teal;
+				border-bottom: 4px solid $teal;
 			} 
 		}
 
