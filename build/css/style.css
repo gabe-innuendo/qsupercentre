@@ -320,7 +320,7 @@ HEADER / NAVIGATION
 }
 
 .header-navigation ul li:hover ul {
-  top: 38px;
+  top: 42px;
 }
 
 /* Unslider positioning */
@@ -412,7 +412,7 @@ HEADER / NAVIGATION
 }
 
 .sidebar {
-  padding: 0rem 3rem;
+  padding: 1rem 3rem;
   margin: 1.6rem 0;
   border-left: 1px solid #403f40;
 }
@@ -476,12 +476,16 @@ HEADER / NAVIGATION
   background-color: #f9f9f9;
   border: 1px solid #c6c6c6;
   color: #292929;
-  padding: 1rem;
+  padding: 0.5rem 1rem 1rem 1rem;
   text-align: left;
   min-width: 200px;
   -webkit-transition: opacity 0.15s ease;
   transition: opacity 0.15s ease;
   opacity: 0;
+  bottom: 90px;
+  z-index: 999;
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .retailer-logos .retailer-logo-container .retailer-opening-hours.visible {

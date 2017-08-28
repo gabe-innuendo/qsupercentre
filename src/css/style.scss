@@ -334,7 +334,7 @@ HEADER / NAVIGATION
 			}
 
 			ul {
-					top: 38px;
+					top: 42px;
 			}
 		}
 
@@ -433,7 +433,7 @@ HEADER / NAVIGATION
 }
 
 .sidebar {
-	padding: 0rem 3rem;
+	padding: 1rem 3rem;
 	margin: 1.6rem 0;
 	border-left: 1px solid $dark-grey;
 
@@ -496,11 +496,14 @@ HEADER / NAVIGATION
 			background-color: $white;
 			border: 1px solid $grey;
 			color: $light-black;
-			padding: 1rem;
+			padding: 0.5rem 1rem 1rem 1rem;
 			text-align: left;
 			min-width: 200px;
 			transition: opacity 0.15s ease;
 			opacity: 0;
+			bottom: 90px;
+			z-index: 999;
+			box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
 		}
 
 		.retailer-opening-hours.visible {
