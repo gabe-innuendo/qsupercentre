@@ -21,6 +21,10 @@ $(".opening-times-container").click(function(){
 	$(".opening-times-pop-out").toggleClass("open");
 });
 
+$(".mobile-header .clock-icon").click(function(){
+	$(".opening-times-pop-out").toggleClass("open");
+});
+
 $(".opening-times-pop-out .close").click(function(){
 	$(".opening-times-pop-out").removeClass("open");
 });

@@ -31,19 +31,29 @@
             <!-- Mobile Header -->
             <header class="mobile-header">
                 <div class="flexGridRow">
-                    <div class="cell cell--full">
+                    <div class="cell cell--third--mobile">
+                        <div class="clock-icon">
+                            <span><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                    <div class="cell cell--third--mobile">
                         <div class="logo-container">
                             <img src="images/qsupercentre_logo_white.svg" alt="Q Super Centre Logo"/>
                         </div>
                     </div>
-                </div>
-                <div id="hamburger-menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <div class="cell cell--third--mobile">
+                        <div id="hamburger-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
                 </div>
             </header>
+            <nav class="mobile-navigation">
+
+            </nav>
             <!-- HEADER / NAVIGATION -->
             <header class="main-header">
                 <div class="flexGridRow">

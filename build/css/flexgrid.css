@@ -206,6 +206,11 @@ Media Queries
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
   }
+  .cell--third--mobile {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.3333%;
+            flex: 0 0 33.3333%;
+  }
   .cell--oneQuarter {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;

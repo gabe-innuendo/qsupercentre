@@ -5,7 +5,7 @@
                     <div class="front-page-slider">
                         <ul>
                             <li><img src="images/banner-1.jpg" alt="Home Page Q Banner" /></li>
-                            <li><img src="images/banner-1.jpg" alt="Home Page Q Banner" /></li>
+                            <li><img src="images/banner-2.jpg" alt="Home Page Q Banner" /></li>
                         </ul>
                     </div>
                 </div>

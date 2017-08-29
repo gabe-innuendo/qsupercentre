@@ -642,22 +642,25 @@ HEADER / NAVIGATION
     border-bottom: 1px solid #403f40;
     -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
             box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    max-height: 70px;
   }
   .mobile-header .logo-container {
     display: block;
     width: 100%;
-    padding: 0.5rem;
     text-align: center;
   }
   .mobile-header .logo-container img {
     max-width: 100px;
     height: 100%;
-    margin: 0 auto;
+  }
+  .mobile-header .clock-icon {
+    padding: 1.3rem;
+    cursor: pointer;
   }
   .mobile-header #hamburger-menu {
     width: 30px;
     height: 25px;
-    position: absolute;
+    position: relative;
     top: -0.5rem;
     right: 0;
     margin: 2rem;
@@ -734,7 +737,7 @@ HEADER / NAVIGATION
     line-height: 1.7em;
   }
   .sidebar {
-    padding: 1rem;
+    padding: 2rem;
     border-left: none;
     border-top: 1px solid #403f40;
     border-bottom: 1px solid #403f40;
@@ -748,6 +751,9 @@ HEADER / NAVIGATION
     display: none;
   }
   /* Footer Styles */
+  .main-footer {
+    padding: 2rem;
+  }
   .main-footer .align-right {
     text-align: left;
   }
