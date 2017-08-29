@@ -13,13 +13,16 @@
                         Email: <a href="mailto:qsupercentre@jen.com.au">qsupercentre@jen.com.au</a>
                     </p>
                 </div>
-                <div class="cell cell--half">
-                    <p class="align-right">
-                        We are a DOG FRIENDLY centre. 
-                        <img class="dog-badge" src="images/dog-badge.png" />
-                        <a href="#" class="social button">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
+                <div class="cell cell--oneQuarter"></div><!-- Spacing only -->
+                <div class="cell cell--oneQuarter">
+                    <p>
+                        We are a DOG FRIENDLY centre.
+                        <div class="footer-badges"> 
+                            <img class="dog-badge" src="images/dog-badge.png" />
+                            <a href="#" class="social button">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </p>
                 </div>
             </div>

@@ -510,10 +510,17 @@ HEADER / NAVIGATION
   padding: 3rem;
 }
 
+.main-footer p {
+  display: block;
+}
+
+.main-footer .footer-badges {
+  display: block;
+}
+
 .main-footer .dog-badge {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 10px;
 }
 
 .main-footer .bottom-links ul {
@@ -657,5 +664,12 @@ HEADER / NAVIGATION
   }
   .retailer-logos {
     display: none;
+  }
+  /* Footer Styles */
+  .main-footer .align-right {
+    text-align: left;
+  }
+  .main-footer .dog-badge {
+    margin-left: 0;
   }
 }
