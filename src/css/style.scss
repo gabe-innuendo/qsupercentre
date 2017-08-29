@@ -141,7 +141,7 @@ HEADER / NAVIGATION
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
 }
 
-.mobile-header {
+.mobile-header, .mobile-navigation {
 	display: none;
 }
 
@@ -220,6 +220,7 @@ HEADER / NAVIGATION
 	max-width: 320px;
 	left: -320px;
 	transition: left 0.3s ease;
+	top: 70px;
 
 	table {
 		width: 320px;
@@ -397,23 +398,22 @@ HEADER / NAVIGATION
 
 .navigation-boxes {
 	width: 100%;
-	display: inline-flex;
+	display: flex;
 	border-top: 1px solid $dark-grey;
 	border-bottom: 1px solid $dark-grey;
+	text-align: center;
 	
 	a {
 		text-decoration: none;
 		color: $white;
-		display: inline-block;
-		box-sizing: border-box;
-		padding: 1rem;
+		padding: 1rem 0;
 	}
 
 	li {
-		text-align: center;
 		flex: 0 1 auto;
 		width: 25%;
 		border-right: 1px solid $dark-grey;
+		padding-bottom: 1rem;
 
 		&:last-child {
 			border-right: none;
@@ -425,6 +425,7 @@ HEADER / NAVIGATION
 
 		img {
 			max-height: 100px;
+			padding-top: 1rem;
 		}
 
 		h3 {
@@ -452,6 +453,13 @@ HEADER / NAVIGATION
 
 	.fb-profile-image {
 		max-width: 50px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.fb-profile-details {
+		display: inline-block;
+		vertical-align: middle;
 	}
 
 	span {
@@ -666,24 +674,28 @@ HEADER / NAVIGATION
 		background-color: $light-black;
 		border-bottom: 1px solid $dark-grey;
 		box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+		max-height: 70px;
 
 		.logo-container {
 			display: block;
 			width: 100%;
-			padding: 0.5rem;
 			text-align: center;
 
 			img {
 				max-width: 100px;
 				height: 100%;
-				margin: 0 auto;
 			}
+		}
+
+		.clock-icon {
+			padding: 1.3rem;
+			cursor: pointer;
 		}
 
 		#hamburger-menu {
 			width: 30px;
 		  	height: 25px;
-		  	position: absolute;
+		  	position: relative;
 		  	top: -0.5rem;
 		  	right: 0;
 		  	margin: 2rem;
@@ -740,6 +752,53 @@ HEADER / NAVIGATION
 
 	}
 
+	.mobile-navigation.visible {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.mobile-navigation {
+		display: block;
+		height: 100vh;
+		background-color: rgba(0,0,0,0.9);
+		width: 100%;
+		text-align: center;
+		visibility: hidden;
+		opacity: 0;
+		transition: all 0.3s ease;
+
+		ul {
+			li {
+
+				border-top: 1px solid $dark-grey;
+				display: block;
+
+				a {
+					color: $white;
+					opacity: 1;
+					font-size: 2rem;
+					text-decoration: none;
+					line-height: 1.8em;
+				}
+				ul {
+					li {
+						border: none;
+						
+						&:first-child {
+							border-top: 1px solid $dark-grey;
+						}
+
+						a {
+							font-size: 1.2em;
+							line-height: 3em;
+							font-weight: 100;
+						}
+					}
+				}
+			}
+		}
+	}
+
 	/* Home Page Styles */
 
 	.navigation-boxes {
@@ -775,7 +834,7 @@ HEADER / NAVIGATION
 	}
 
 	.sidebar {
-		padding: 1rem;
+		padding: 2rem;
 		border-left: none;
 		border-top: 1px solid $dark-grey;
 		border-bottom: 1px solid $dark-grey;
@@ -794,6 +853,9 @@ HEADER / NAVIGATION
 	/* Footer Styles */
 
 	.main-footer {
+
+		padding: 2rem;
+
 		.align-right {
 			text-align: left;
 		}

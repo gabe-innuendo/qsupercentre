@@ -61,13 +61,14 @@
                     <aside class="sidebar">
                         <h6>The latest from facebook</h6>
                         <div class="flexGridRow">
-                            <div class="cell cell--notGrow">
-                                <img class="fb-profile-image" src="images/temp-images/fb-profile.jpg" alt="Facebook Profile Image" />
-                            </div>
                             <div class="cell">
-                                <span class="fb-page-name">Q Super Centre</span>
-                                <span class="fb-post-date">19 June at 14:00</span>
+                                <img class="fb-profile-image" src="images/temp-images/fb-profile.jpg" alt="Facebook Profile Image" />
+                                <div class="fb-profile-details">
+                                    <span class="fb-page-name">Q Super Centre</span>
+                                    <span class="fb-post-date">19 June at 14:00</span>
+                                </div>
                             </div>
+
                         </div>
                         <p class="fb-post-copy">
                             Remember these cute puppers from last year’s Doggie Face of Q competition?

@@ -125,7 +125,7 @@ HEADER / NAVIGATION
           box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
-.mobile-header {
+.mobile-header, .mobile-navigation {
   display: none;
 }
 
@@ -205,6 +205,7 @@ HEADER / NAVIGATION
   left: -320px;
   -webkit-transition: left 0.3s ease;
   transition: left 0.3s ease;
+  top: 70px;
 }
 
 .opening-times-pop-out table {
@@ -374,29 +375,27 @@ HEADER / NAVIGATION
 /* Landing page styles */
 .navigation-boxes {
   width: 100%;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   border-top: 1px solid #403f40;
   border-bottom: 1px solid #403f40;
+  text-align: center;
 }
 
 .navigation-boxes a {
   text-decoration: none;
   color: #f9f9f9;
-  display: inline-block;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .navigation-boxes li {
-  text-align: center;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 auto;
           flex: 0 1 auto;
   width: 25%;
   border-right: 1px solid #403f40;
+  padding-bottom: 1rem;
 }
 
 .navigation-boxes li:last-child {
@@ -409,6 +408,7 @@ HEADER / NAVIGATION
 
 .navigation-boxes li img {
   max-height: 100px;
+  padding-top: 1rem;
 }
 
 .navigation-boxes li h3 {
@@ -435,6 +435,13 @@ HEADER / NAVIGATION
 
 .sidebar .fb-profile-image {
   max-width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sidebar .fb-profile-details {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .sidebar span {
@@ -710,6 +717,43 @@ HEADER / NAVIGATION
     top: 9px;
     width: 0%;
     left: 50%;
+  }
+  .mobile-navigation.visible {
+    visibility: visible;
+    opacity: 1;
+  }
+  .mobile-navigation {
+    display: block;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .mobile-navigation ul li {
+    border-top: 1px solid #403f40;
+    display: block;
+  }
+  .mobile-navigation ul li a {
+    color: #f9f9f9;
+    opacity: 1;
+    font-size: 2rem;
+    text-decoration: none;
+    line-height: 1.8em;
+  }
+  .mobile-navigation ul li ul li {
+    border: none;
+  }
+  .mobile-navigation ul li ul li:first-child {
+    border-top: 1px solid #403f40;
+  }
+  .mobile-navigation ul li ul li a {
+    font-size: 1.2em;
+    line-height: 3em;
+    font-weight: 100;
   }
   /* Home Page Styles */
   .navigation-boxes {

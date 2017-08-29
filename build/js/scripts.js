@@ -11,6 +11,7 @@ $( document ).ready(function() {
 
 $("#hamburger-menu").click(function(){
 	$(this).toggleClass('open');
+	$('.mobile-navigation').toggleClass('visible');
 })
 
 $(".header-navigation > ul > li:has(ul)").addClass("has-sub-menu");
