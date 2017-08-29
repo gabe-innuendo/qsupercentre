@@ -148,7 +148,7 @@ HEADER / NAVIGATION
 .main-header {
 	background-color: $light-black;
 	color: $white;
-	height: 120px;
+	height: 100px;
 	font-family: $body-stack;
 	z-index: 100;
 	transition: all 0.3s;
@@ -190,7 +190,7 @@ HEADER / NAVIGATION
 
 .logo-container {
 	img {
-		max-width: 200px;
+		max-width: 180px;
 		display: table;
 		margin: 10px auto;
 		transition: all 0.3s;

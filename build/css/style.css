@@ -132,7 +132,7 @@ HEADER / NAVIGATION
 .main-header {
   background-color: #292929;
   color: #f9f9f9;
-  height: 120px;
+  height: 100px;
   font-family: "din-2014", sans-serif;
   z-index: 100;
   -webkit-transition: all 0.3s;
@@ -173,7 +173,7 @@ HEADER / NAVIGATION
 }
 
 .logo-container img {
-  max-width: 200px;
+  max-width: 180px;
   display: table;
   margin: 10px auto;
   -webkit-transition: all 0.3s;

@@ -38,12 +38,12 @@ $(window).scroll(function() {
 
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 100) {
+    if (scroll >= 80) {
         $(".main-header").addClass("smaller");
         $(".logo-container img").addClass("smaller");
     }
 
-    if (scroll <= 99) {
+    if (scroll <= 79) {
         $(".main-header").removeClass("smaller");
         $(".logo-container img").removeClass("smaller");
     }
