@@ -125,6 +125,10 @@ HEADER / NAVIGATION
           box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
+.mobile-header {
+  display: none;
+}
+
 .main-header {
   background-color: #292929;
   color: #f9f9f9;
@@ -625,6 +629,85 @@ HEADER / NAVIGATION
 	Responsive Styles 
 */
 @media screen and (max-width: 48em) {
+  /* Header Styles */
+  .main-header {
+    display: none;
+  }
+  .header-navigation {
+    display: none;
+  }
+  .mobile-header {
+    display: block;
+    background-color: #292929;
+    border-bottom: 1px solid #403f40;
+    -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  }
+  .mobile-header .logo-container {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  .mobile-header .logo-container img {
+    max-width: 100px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .mobile-header #hamburger-menu {
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    top: -0.5rem;
+    right: 0;
+    margin: 2rem;
+    float: right;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
+    cursor: pointer;
+  }
+  .mobile-header #hamburger-menu span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #f9f9f9;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
+  }
+  .mobile-header #hamburger-menu span:nth-child(1) {
+    top: 0px;
+  }
+  .mobile-header #hamburger-menu span:nth-child(2), .mobile-header #hamburger-menu span:nth-child(3) {
+    top: 9px;
+  }
+  .mobile-header #hamburger-menu span:nth-child(4) {
+    top: 18px;
+  }
+  .mobile-header #hamburger-menu.open span:nth-child(1) {
+    top: 9px;
+    width: 0%;
+    left: 50%;
+  }
+  .mobile-header #hamburger-menu.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .mobile-header #hamburger-menu.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .mobile-header #hamburger-menu.open span:nth-child(4) {
+    top: 9px;
+    width: 0%;
+    left: 50%;
+  }
   /* Home Page Styles */
   .navigation-boxes {
     width: 100%;
@@ -656,7 +739,6 @@ HEADER / NAVIGATION
     border-top: 1px solid #403f40;
     border-bottom: 1px solid #403f40;
     margin: 0;
-    width: 100%;
   }
   .sidebar h6 {
     margin: 0;

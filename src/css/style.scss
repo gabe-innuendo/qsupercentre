@@ -141,6 +141,10 @@ HEADER / NAVIGATION
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
 }
 
+.mobile-header {
+	display: none;
+}
+
 .main-header {
 	background-color: $light-black;
 	color: $white;
@@ -647,6 +651,95 @@ HEADER / NAVIGATION
 
 @media screen and (max-width: 48em) {
 
+	/* Header Styles */
+
+	.main-header {
+		display: none;
+	}
+
+	.header-navigation {
+		display: none;
+	}
+
+	.mobile-header {
+		display: block;
+		background-color: $light-black;
+		border-bottom: 1px solid $dark-grey;
+		box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+
+		.logo-container {
+			display: block;
+			width: 100%;
+			padding: 0.5rem;
+			text-align: center;
+
+			img {
+				max-width: 100px;
+				height: 100%;
+				margin: 0 auto;
+			}
+		}
+
+		#hamburger-menu {
+			width: 30px;
+		  	height: 25px;
+		  	position: absolute;
+		  	top: -0.5rem;
+		  	right: 0;
+		  	margin: 2rem;
+		  	float: right;
+			transform: rotate(0deg);
+		  	transition: .15s ease-in-out;
+		  	cursor: pointer;
+		}
+
+		#hamburger-menu span {
+		  	display: block;
+		  	position: absolute;
+		  	height: 3px;
+		  	width: 100%;
+		  	background: $white;
+		  	opacity: 1;
+		  	left: 0;
+		  	transform: rotate(0deg);
+		  	transition: .15s ease-in-out;
+		}
+
+		#hamburger-menu span:nth-child(1) {
+		  	top: 0px;
+		}
+
+		#hamburger-menu span:nth-child(2), #hamburger-menu span:nth-child(3) {
+		  	top: 9px;
+		}
+
+		#hamburger-menu span:nth-child(4) {
+		  	top: 18px;
+		}
+
+		#hamburger-menu.open span:nth-child(1) {
+		  	top: 9px;
+		  	width: 0%;
+		  	left: 50%;
+		}
+
+		#hamburger-menu.open span:nth-child(2) {
+		  	transform: rotate(45deg);
+		}
+
+		#hamburger-menu.open span:nth-child(3) {
+		  	transform: rotate(-45deg);
+		}
+
+		#hamburger-menu.open span:nth-child(4) {
+		  	top: 9px;
+		  	width: 0%;
+		  	left: 50%;
+		}
+
+
+	}
+
 	/* Home Page Styles */
 
 	.navigation-boxes {
@@ -687,7 +780,6 @@ HEADER / NAVIGATION
 		border-top: 1px solid $dark-grey;
 		border-bottom: 1px solid $dark-grey;
 		margin: 0;
-		width: 100%;
 
 		h6 {
 			margin: 0;

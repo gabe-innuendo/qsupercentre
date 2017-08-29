@@ -28,6 +28,22 @@
     <body>
 
         <div class="fixed-header">
+            <!-- Mobile Header -->
+            <header class="mobile-header">
+                <div class="flexGridRow">
+                    <div class="cell cell--full">
+                        <div class="logo-container">
+                            <img src="images/qsupercentre_logo_white.svg" alt="Q Super Centre Logo"/>
+                        </div>
+                    </div>
+                </div>
+                <div id="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
             <!-- HEADER / NAVIGATION -->
             <header class="main-header">
                 <div class="flexGridRow">

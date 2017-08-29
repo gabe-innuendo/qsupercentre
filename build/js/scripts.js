@@ -9,6 +9,10 @@ $( document ).ready(function() {
 
 });
 
+$("#hamburger-menu").click(function(){
+	$(this).toggleClass('open');
+})
+
 $(".header-navigation > ul > li:has(ul)").addClass("has-sub-menu");
 
 $(".has-sub-menu > a").append("<i class='fa fa-caret-down inline-icon' aria-hidden='true'></i>");
