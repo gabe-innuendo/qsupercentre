@@ -633,3 +633,63 @@ HEADER / NAVIGATION
 		}
 	}
 }
+
+/* 
+	Responsive Styles 
+*/
+
+@media screen and (max-width: 48em) {
+
+	/* Home Page Styles */
+
+	.navigation-boxes {
+		width: 100%;
+		display: block;
+
+		li {
+			width: 100%;
+			border-right: none;
+			border-bottom: 1px solid $dark-grey;
+
+
+			img {
+				max-height: 80px;
+			}
+
+			h3 {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.front-page-article {
+		padding: 2rem;
+
+		h2 {
+			font-size: 1.5rem;
+		}
+		
+		p {
+			line-height: 1.7em;
+		}
+	}
+
+	.sidebar {
+		padding: 1rem;
+		border-left: none;
+		border-top: 1px solid $dark-grey;
+		border-bottom: 1px solid $dark-grey;
+		margin: 0;
+		width: 100%;
+
+		h6 {
+			margin: 0;
+			margin-bottom: 2rem;
+		}
+	}
+
+	.retailer-logos {
+		display: none;
+	}
+
+}

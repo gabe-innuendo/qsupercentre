@@ -57,7 +57,7 @@
                         </header>
                     </article>   
                 </div>
-                <div class="cell">
+                <div class="cell cell--oneThird">
                     <aside class="sidebar">
                         <h6>The latest from facebook</h6>
                         <div class="flexGridRow">
