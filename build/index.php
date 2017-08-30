@@ -14,49 +14,34 @@
             <div class="flexGridRow flexGridRow--wrap">
                 <div class="cell cell--half">
                     <article class="whats-on-story-box">
-                        <div class="flexGridRow">
-                            <div class="cell cell--half">
-                                <div class="image-circle-crop">
-                                    <img class="whats-on-image" src="images/temp-images/subway.jpg" alt=""/>
-                                </div>
-                            </div>
-                            <div class="cell cell--half">
-                                <h5>Subway Wrap Deal!</h5>
-                                <p>Get any two of your favourite wraps for only $10!</p>
-                                <a class="button link">Read more</a>
-                            </div>
+                        <div class="image-circle-crop" style="background-image: url(../images/temp-images/subway.jpg);">
+                        </div>
+                        <div class="whats-on-details">
+                            <h5>Subway Wrap Deal!</h5>
+                            <p>Get any two of your favourite wraps for only $10!</p>
+                            <a class="button link">Read more</a>
                         </div>
                     </article>
                 </div><!-- end col-half -->
                 <div class="cell cell--half">
                     <article class="whats-on-story-box">
-                        <div class="flexGridRow">
-                            <div class="cell cell--half">
-                                <div class="image-circle-crop">
-                                    <img class="whats-on-image" src="images/temp-images/cobbler.jpg" alt=""/>
-                                </div>
-                            </div>
-                            <div class="cell cell--half">
-                                <h5>Q Cobblers joins the Q family!</h5>
-                                <p>Q Cobblers is the newest store to join the Q Super Centre family!</p>
-                                <a class="button link">Read more</a>
-                            </div>
+                        <div class="image-circle-crop" style="background-image: url(../images/temp-images/cobbler.jpg);">
+                        </div>
+                        <div class="whats-on-details">
+                            <h5>Q Cobblers joins the Q family!</h5>
+                            <p>Q Cobblers is the newest store to join the Q Super Centre family!</p>
+                            <a class="button link">Read more</a>
                         </div>
                     </article>
                 </div><!-- end col-half -->
                 <div class="cell cell--half">
                     <article class="whats-on-story-box">
-                        <div class="flexGridRow">
-                            <div class="cell cell--half">
-                                <div class="image-circle-crop">
-                                    <img class="whats-on-image" src="images/temp-images/jersey-mike.jpg" alt=""/>
-                                </div>
-                            </div>
-                            <div class="cell cell--half">
-                                <h5>Jersey Mike’s subs daily specials</h5>
-                                <p>A host of new specials are available at Jersey Mike’s Subs at Q Super Centre! </p>
-                                <a class="button link">Read more</a>
-                            </div>
+                        <div class="image-circle-crop" style="background-image: url(../images/temp-images/jersey-mike.jpg);">
+                        </div>
+                        <div class="whats-on-details">
+                            <h5>Jersey Mike’s subs daily specials</h5>
+                            <p>A host of new specials are available at Jersey Mike’s Subs at Q Super Centre! </p>
+                            <a class="button link">Read more</a>
                         </div>
                     </article>
                 </div><!-- end col-half -->           

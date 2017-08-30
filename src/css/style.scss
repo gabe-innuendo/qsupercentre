@@ -572,7 +572,8 @@ HEADER / NAVIGATION
 
 /* WHATS ON STYLES */
 .whats-on-story-box {
-	padding: 1rem;
+	padding: 1rem 0;
+	width: 100%;
 
 	h5 {
 		margin-bottom: 0;
@@ -580,17 +581,22 @@ HEADER / NAVIGATION
 	}
 	
 	.image-circle-crop {
-		width: 180px;
-		height: 180px;
-		max-width: 100%;
+		width: 25%;
+		height: auto;
+		padding-top: 25%;
 		border-radius: 50%;
-		overflow: hidden;
 		text-align: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: inline-block;
+		vertical-align: middle;
+	}
 
-		img {
-			max-height: 100%;
-		}
-		
+	.whats-on-details {
+		display: inline-block;
+		vertical-align: middle;
+		width: 60%;	
+		padding-left: 1rem;
 	}
 }
 
@@ -773,6 +779,10 @@ HEADER / NAVIGATION
 				border-top: 1px solid $dark-grey;
 				display: block;
 
+				&:first-child {
+					border-top: none;
+				}
+
 				a {
 					color: $white;
 					opacity: 1;
@@ -789,7 +799,7 @@ HEADER / NAVIGATION
 						}
 
 						a {
-							font-size: 1.2em;
+							font-size: 1.5em;
 							line-height: 3em;
 							font-weight: 100;
 						}
