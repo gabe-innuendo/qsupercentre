@@ -35,6 +35,9 @@
                         <div class="clock-icon">
                             <span><i class="fa fa-clock-o" aria-hidden="true"></i></span>
                         </div>
+                        <a href="tel: 07 5563 4888" class="mobile-icon">
+                           <i class="fa fa-phone" aria-hidden="true"></i>
+                        </a>
                     </div>
                     <div class="cell cell--third--mobile">
                         <div class="logo-container">
@@ -89,9 +92,9 @@
 
                     <div class="cell">
                         <div class="social-header-container">
-                            <span>Keep in touch with all the Q news!</span>
+                            <span>07 5563 4888</span>
                             <a href="#" class="social button">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
                             </a>
                         </div>
                     </div><!-- end cell -->

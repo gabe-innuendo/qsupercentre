@@ -31,19 +31,19 @@ $(".opening-times-pop-out .close").click(function(){
 });
 
 $(".retailer-logo-container img").hover(function(){
-	$(this).find(".retailer-opening-hours").toggleClass("visible");
+	$(this).parent().find(".retailer-opening-hours").toggleClass("visible");
 });
 
 $(window).scroll(function() {    
 
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 80) {
+    if (scroll >= 60) {
         $(".main-header").addClass("smaller");
         $(".logo-container img").addClass("smaller");
     }
 
-    if (scroll <= 79) {
+    if (scroll <= 59) {
         $(".main-header").removeClass("smaller");
         $(".logo-container img").removeClass("smaller");
     }

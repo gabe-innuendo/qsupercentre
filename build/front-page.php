@@ -1,5 +1,5 @@
 <?php require_once('head.php'); ?>
-	<div class="unslider-container">
+	   <div class="unslider-container">
             <div class="flexGridRow">
                 <div class="cell">
                     <div class="front-page-slider">
@@ -11,6 +11,15 @@
                 </div>
             </div>
         </div><!-- unslider-container -->
+
+        <div class="mobile-header-container">
+            <div class="mobile-header-message">
+                <h6>Welcome to</h6>
+                <hr class="short" />
+                <h2>Q Super Centre</h2>
+            </div>
+            <img src="images/banner-mobile.jpg" alt="Q Home Banner Mobile" />
+        </div>
         
         <main class="front-page-main">
             
@@ -244,6 +253,44 @@
                 <li class="cell">
                     <div class="retailer-logo-container">
                         <img src="images/temp-images/retailer-logos/choice.png" />
+                        <aside class="retailer-opening-hours">
+                        <h4>Opening hours</h4>
+                            <table class="retailer-opening-times-table">
+                                <tr>
+                                    <td>Monday </td>
+                                    <td>10:00am - 7:00pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday </td>
+                                    <td>10:00am - 7:00pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Wednesday </td>
+                                    <td>10:00am - 7:00pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday </td>
+                                    <td>10:00am - 7:00pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday </td>
+                                    <td>10:00am - 7:00pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday </td>
+                                    <td>10:00am - 7:00pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday </td>
+                                    <td>10:00am - 7:00pm</td>
+                                </tr>
+                            </table>
+                        </aside>
+                    </div>
+                </li>
+                <li class="cell">
+                    <div class="retailer-logo-container">
+                        <img src="images/temp-images/retailer-logos/petbarn.png" />
                         <aside class="retailer-opening-hours">
                         <h4>Opening hours</h4>
                             <table class="retailer-opening-times-table">

@@ -11,6 +11,11 @@
             </div>
         </div><!-- unslider-container -->
         <main class="whats-on-main">
+        <div class="flexGridRow">
+            <div class="cell">
+                <h3>What's on at Q</h3>
+            </div>
+        </div>
             <div class="flexGridRow flexGridRow--wrap">
                 <div class="cell cell--half">
                     <article class="whats-on-story-box">
