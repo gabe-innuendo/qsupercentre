@@ -190,13 +190,13 @@ HEADER / NAVIGATION
 
 .logo-container {
 	img {
-		max-width: 180px;
+		max-width: 140px;
 		display: table;
-		margin: 10px auto;
+		margin: 10px auto 0 auto;
 		transition: all 0.3s;
 	}
 	img.smaller {
-		max-width: 100px;
+		max-width: 80px;
 	}
 }
 
@@ -286,7 +286,7 @@ HEADER / NAVIGATION
 				padding: 12px 0 10px 0;
 				text-transform: uppercase;
 				transition: background-color 0.15s ease, color 0.15s ease, border-bottom 0.15s ease;
-				border-bottom: $white 2px solid;
+				border-bottom: $white 4px solid;
 
 				&:hover {
 					background-color: $teal;
@@ -309,6 +309,8 @@ HEADER / NAVIGATION
 .header-navigation {
 	ul {
 		li {
+
+			position: relative;
 						
 			.inline-icon {
 				color: $black;
@@ -319,15 +321,16 @@ HEADER / NAVIGATION
 			ul {
 				z-index: -10;
 				background-color: $light-black;
+				transition: all 0.15s ease;
+				display: flex;
+				flex-direction: column;
 				position: absolute;
 				width: 100%;
-				left: 0;
-				top: 0px;
-				transition: all 0.15s ease;
+				visibility: hidden;
+				opacity: 0;
 
 				li {
 					border-right: 1px solid $dark-grey;
-
 					a {
 						color: $white;
 						border-bottom: $dark-grey 1px solid;
@@ -348,7 +351,8 @@ HEADER / NAVIGATION
 			}
 
 			ul {
-					top: 42px;
+				visibility: visible;
+				opacity: 1;
 			}
 		}
 
@@ -358,13 +362,20 @@ HEADER / NAVIGATION
 
 /* Unslider positioning */
 
+.mobile-header-container {
+	display: none;
+}
+
 .front-page-slider {
 	width: 100%;
+	
 
 	ul {
 		li {
+			text-align: center;
 			img {
-				width: 100%;
+				max-height: 50vh;
+				max-width: 100%;
 			}
 		}
 	}
@@ -517,14 +528,28 @@ HEADER / NAVIGATION
 			background-color: $white;
 			border: 1px solid $grey;
 			color: $light-black;
-			padding: 0.5rem 1rem 1rem 1rem;
+			padding: 0rem 1rem 1rem 1rem;
 			text-align: left;
 			min-width: 200px;
 			transition: opacity 0.15s ease;
 			opacity: 0;
 			bottom: 90px;
 			z-index: 999;
-			box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+			box-shadow: 2px 10px 10px rgba(0,0,0,0.15);
+			
+			&::after {
+				content:'';
+			    position: absolute;
+			    top: 100%;
+			    left: 50%;
+			    margin-left: -10px;
+			    width: 0;
+			    height: 0;
+			    border-top: solid 10px $white;
+			    border-left: solid 10px transparent;
+			    border-right: solid 10px transparent;
+			}
+
 		}
 
 		.retailer-opening-hours.visible {
@@ -623,6 +648,20 @@ HEADER / NAVIGATION
 		line-height: 1.5rem;
 	}
 
+	main img.align-left {
+		float: left;
+		margin: 1rem;
+		margin-left: 0;
+		max-width: 50%;
+	}
+
+	main img.align-right {
+		float: right;
+		margin: 1rem;
+		margin-right: 0;
+		max-width: 50%;
+	}
+
 	footer {
 
 		padding: 3rem;
@@ -659,6 +698,42 @@ HEADER / NAVIGATION
 	}
 }
 
+/* Gallery Pages */
+
+.photo-gallery-page {
+	padding-top: 150px;
+	background-color: $light-black;
+
+	.photo-gallery-header {
+		text-align: center;
+	}
+}
+
+.photo-gallery-article {
+	padding: 2rem;
+}
+
+.photo-gallery-circle-container {
+	width: 100%;
+	height: auto;
+	padding-top: 100%;
+	border-radius: 50%;
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+
+	h4 {
+		position: absolute;
+		top: 40%;
+		transform: translateY(-50%);
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+
 /* 
 	Responsive Styles 
 */
@@ -679,7 +754,7 @@ HEADER / NAVIGATION
 		display: block;
 		background-color: $light-black;
 		border-bottom: 1px solid $dark-grey;
-		box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+		box-shadow: 0 5px 10px rgba(0,0,0,0.15);
 		max-height: 70px;
 
 		.logo-container {
@@ -694,8 +769,15 @@ HEADER / NAVIGATION
 		}
 
 		.clock-icon {
-			padding: 1.3rem;
+			padding: 1rem;
 			cursor: pointer;
+		}
+
+		.mobile-icon {
+			color: $white;
+			font-size: 2rem;
+			padding-left: 1rem;
+			border-left: 1px solid $dark-grey;
 		}
 
 		#hamburger-menu {
@@ -704,7 +786,8 @@ HEADER / NAVIGATION
 		  	position: relative;
 		  	top: -0.5rem;
 		  	right: 0;
-		  	margin: 2rem;
+		  	margin: 1.6rem;
+		  	margin-left: 0.5rem;
 		  	float: right;
 			transform: rotate(0deg);
 		  	transition: .15s ease-in-out;
@@ -761,16 +844,17 @@ HEADER / NAVIGATION
 	.mobile-navigation.visible {
 		visibility: visible;
 		opacity: 1;
+		height: 100vh;
 	}
 
 	.mobile-navigation {
 		display: block;
-		height: 100vh;
 		background-color: rgba(0,0,0,0.9);
 		width: 100%;
 		text-align: center;
 		visibility: hidden;
 		opacity: 0;
+		height: 0;
 		transition: all 0.3s ease;
 
 		ul {
@@ -786,7 +870,7 @@ HEADER / NAVIGATION
 				a {
 					color: $white;
 					opacity: 1;
-					font-size: 2rem;
+					font-size: 1.8rem;
 					text-decoration: none;
 					line-height: 1.8em;
 				}
@@ -799,7 +883,7 @@ HEADER / NAVIGATION
 						}
 
 						a {
-							font-size: 1.5em;
+							font-size: 1.3em;
 							line-height: 3em;
 							font-weight: 100;
 						}
@@ -810,6 +894,38 @@ HEADER / NAVIGATION
 	}
 
 	/* Home Page Styles */
+
+	.mobile-header-container {
+		display: block;
+		width: 100%;
+		margin-top: 70px;
+		position: relative;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+
+		.mobile-header-message {
+			text-align: center;
+			position: absolute;
+			padding: 0.5rem;
+			min-width: 280px;
+			border: solid 1px $dark-grey;
+			background-color: rgba(0,0,0,0.8);
+			top: 35%;
+			left: 50%;
+			transform: translateX(-50%);
+
+			h2, h6 {
+				margin: 0;
+			}
+
+			hr {
+				width: 10%;
+			}
+		}
+	}
 
 	.navigation-boxes {
 		width: 100%;
@@ -856,6 +972,10 @@ HEADER / NAVIGATION
 		}
 	}
 
+	.unslider-container {
+		display: none;
+	}
+
 	.retailer-logos {
 		display: none;
 	}
@@ -873,6 +993,17 @@ HEADER / NAVIGATION
 		.dog-badge {
 			margin-left: 0;
 		}
+	}
+
+	/*Single / Page styles*/
+
+	.single-whats-on {
+		margin-top: 70px;
+
+		main, header {
+			padding: 0 2rem;
+		}
+
 	}
 
 }
