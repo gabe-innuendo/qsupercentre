@@ -24,7 +24,7 @@
                         <div class="whats-on-details">
                             <h5>Subway Wrap Deal!</h5>
                             <p>Get any two of your favourite wraps for only $10!</p>
-                            <a class="button link">Read more</a>
+                            <a href="single.php" class="button link">Read more</a>
                         </div>
                     </article>
                 </div><!-- end col-half -->
@@ -35,7 +35,7 @@
                         <div class="whats-on-details">
                             <h5>Q Cobblers joins the Q family!</h5>
                             <p>Q Cobblers is the newest store to join the Q Super Centre family!</p>
-                            <a class="button link">Read more</a>
+                            <a href="single.php" class="button link">Read more</a>
                         </div>
                     </article>
                 </div><!-- end col-half -->
@@ -46,7 +46,7 @@
                         <div class="whats-on-details">
                             <h5>Jersey Mike’s subs daily specials</h5>
                             <p>A host of new specials are available at Jersey Mike’s Subs at Q Super Centre! </p>
-                            <a class="button link">Read more</a>
+                            <a href="single.php" class="button link">Read more</a>
                         </div>
                     </article>
                 </div><!-- end col-half -->           

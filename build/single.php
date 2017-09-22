@@ -20,7 +20,7 @@
                                     </div>
                                 </div>
                                 <div class="other-whats-on-title-container">
-                                    <h6>Jersey Mike’s subs daily specials.</h6>
+                                    <h6><a href="single.php">Jersey Mike’s subs daily specials.</a></h6>
                                 </div>
                             </div>
                             <div class="cell">
@@ -30,9 +30,10 @@
                                     </div>
                                 </div>
                                 <div class="other-whats-on-title-container">
-                                    <h6>Q Coblers joins the family.</h6>
+                                    <h6><a href="single.php">Q Coblers joins the family.</a></h6>
                                 </div>
                             </div>
+                        </div>
                             
                     </footer>
                 </article>

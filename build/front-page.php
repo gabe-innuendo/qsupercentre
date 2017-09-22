@@ -33,21 +33,21 @@
                     </a>
                 </li>
                 <li class="nav-box">
-                    <a href="">
+                    <a href="page.php">
                         <img src="images/icons/dogs-at-q.svg" alt="Icon" />
                         <h3>Dogs at Q</h3>
                         <p>Q is proud to be a dog friendly centre</p>
                     </a>
                 </li>
                 <li class="nav-box">
-                    <a href="">
+                    <a href="page.php">
                         <img src="images/icons/find-us.svg" alt="Icon" />
                         <h3>Find us</h3>
                         <p>Directions, contact and address details</p>
                     </a>
                 </li>
                 <li class="nav-box">
-                    <a href="">
+                    <a href="index.php">
                         <img src="images/icons/calendar.svg" alt="Icon" />
                         <h3>What's on</h3>
                         <p>See what's coming up at Q super centre</p>
@@ -98,231 +98,105 @@
             <ul class="flexGridRow">
                 <li class="cell">
                     <div class="retailer-logo-container">
-                        <img src="images/temp-images/retailer-logos/coles.png" />
+                        <img src="images/temp-images/retailer-logos/squared/coles.png" />
                         <aside class="retailer-opening-hours">
                         <h4>Opening hours</h4>
-                            <table class="retailer-opening-times-table">
-                                <tr>
-                                    <td>Monday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Tuesday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Wednesday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Thursday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Friday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Saturday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Sunday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                            </table>
+                            <p><strong>Monday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Tuesday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Wednesday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Thursday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Friday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Saturday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Sunday: </strong><br/>10:00am - 7:00pm</p>
+                            <br />
+                            <p><strong>Phone: </strong>07 2222 2222</p>
                         </aside>
                     </div>
                 </li>
                 <li class="cell">
                     <div class="retailer-logo-container">
-                        <img src="images/temp-images/retailer-logos/woolworths.png" />
+                        <img src="images/temp-images/retailer-logos/squared/woolies.png" />
                         <aside class="retailer-opening-hours">
                         <h4>Opening hours</h4>
-                            <table class="retailer-opening-times-table">
-                                <tr>
-                                    <td>Monday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Tuesday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Wednesday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Thursday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Friday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Saturday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Sunday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                            </table>
+                            <p><strong>Monday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Tuesday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Wednesday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Thursday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Friday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Saturday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Sunday: </strong><br/>10:00am - 7:00pm</p>
+                            <br />
+                            <p><strong>Phone: </strong>07 2222 2222</p>
                         </aside>
                     </div>
                 </li>
                 </li>
                 <li class="cell">
                     <div class="retailer-logo-container">
-                        <img src="images/temp-images/retailer-logos/aldi.png" />
+                        <img src="images/temp-images/retailer-logos/squared/aldi.png" />
                         <aside class="retailer-opening-hours">
                         <h4>Opening hours</h4>
-                            <table class="retailer-opening-times-table">
-                                <tr>
-                                    <td>Monday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Tuesday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Wednesday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Thursday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Friday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Saturday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Sunday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                            </table>
+                            <p><strong>Monday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Tuesday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Wednesday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Thursday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Friday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Saturday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Sunday: </strong><br/>10:00am - 7:00pm</p>
+                            <br />
+                            <p><strong>Phone: </strong>07 2222 2222</p>
                         </aside>
                     </div>
                 </li>
                 </li>
                 <li class="cell">
                     <div class="retailer-logo-container">
-                        <img src="images/temp-images/retailer-logos/bunnings.png" />
+                        <img src="images/temp-images/retailer-logos/squared/bunnings.png" />
                         <aside class="retailer-opening-hours">
                         <h4>Opening hours</h4>
-                            <table class="retailer-opening-times-table">
-                                <tr>
-                                    <td>Monday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Tuesday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Wednesday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Thursday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Friday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Saturday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Sunday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                            </table>
+                            <p><strong>Monday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Tuesday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Wednesday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Thursday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Friday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Saturday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Sunday: </strong><br/>10:00am - 7:00pm</p>
+                            <br />
+                            <p><strong>Phone: </strong>07 2222 2222</p>
                         </aside>
                     </div>
                 </li>
                 <li class="cell">
                     <div class="retailer-logo-container">
-                        <img src="images/temp-images/retailer-logos/choice.png" />
+                        <img src="images/temp-images/retailer-logos/squared/choice.png" />
                         <aside class="retailer-opening-hours">
                         <h4>Opening hours</h4>
-                            <table class="retailer-opening-times-table">
-                                <tr>
-                                    <td>Monday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Tuesday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Wednesday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Thursday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Friday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Saturday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Sunday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                            </table>
+                            <p><strong>Monday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Tuesday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Wednesday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Thursday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Friday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Saturday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Sunday: </strong><br/>10:00am - 7:00pm</p>
+                            <br />
+                            <p><strong>Phone: </strong>07 2222 2222</p>
                         </aside>
                     </div>
                 </li>
                 <li class="cell">
                     <div class="retailer-logo-container">
-                        <img src="images/temp-images/retailer-logos/petbarn.png" />
+                        <img src="images/temp-images/retailer-logos/squared/petbarn.png" />
                         <aside class="retailer-opening-hours">
                         <h4>Opening hours</h4>
-                            <table class="retailer-opening-times-table">
-                                <tr>
-                                    <td>Monday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Tuesday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Wednesday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Thursday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Friday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Saturday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Sunday </td>
-                                    <td>10:00am - 7:00pm</td>
-                                </tr>
-                            </table>
+                            <p><strong>Monday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Tuesday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Wednesday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Thursday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Friday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Saturday: </strong><br/>10:00am - 7:00pm</p>
+                            <p><strong>Sunday: </strong><br/>10:00am - 7:00pm</p>
+                            <br />
+                            <p><strong>Phone: </strong>07 2222 2222</p>
                         </aside>
                     </div>
                 </li>

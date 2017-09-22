@@ -173,7 +173,7 @@ HEADER / NAVIGATION
 }
 
 .logo-container img {
-  max-width: 140px;
+  max-width: 160px;
   display: table;
   margin: 10px auto 0 auto;
   -webkit-transition: all 0.3s;
@@ -181,7 +181,7 @@ HEADER / NAVIGATION
 }
 
 .logo-container img.smaller {
-  max-width: 80px;
+  max-width: 110px;
 }
 
 .social-header-container {
@@ -521,12 +521,12 @@ HEADER / NAVIGATION
   border: 1px solid #c6c6c6;
   color: #292929;
   padding: 0rem 1rem 1rem 1rem;
-  text-align: left;
-  min-width: 200px;
+  text-align: center;
+  width: 100%;
   -webkit-transition: opacity 0.15s ease;
   transition: opacity 0.15s ease;
   opacity: 0;
-  bottom: 90px;
+  bottom: 90%;
   z-index: 999;
   -webkit-box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.15);
           box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.15);
@@ -543,6 +543,10 @@ HEADER / NAVIGATION
   border-top: solid 10px #f9f9f9;
   border-left: solid 10px transparent;
   border-right: solid 10px transparent;
+}
+
+.retailer-logos .retailer-logo-container .retailer-opening-hours p {
+  margin: 5px 0;
 }
 
 .retailer-logos .retailer-logo-container .retailer-opening-hours.visible {
@@ -685,6 +689,15 @@ HEADER / NAVIGATION
   vertical-align: middle;
   max-width: 140px;
   padding: 1rem;
+}
+
+.single-whats-on footer .other-whats-on-title-container a {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
+.single-whats-on footer .other-whats-on-title-container a:hover {
+  color: #1b91af;
 }
 
 /* Gallery Pages */

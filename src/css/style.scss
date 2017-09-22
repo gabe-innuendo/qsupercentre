@@ -190,13 +190,13 @@ HEADER / NAVIGATION
 
 .logo-container {
 	img {
-		max-width: 140px;
+		max-width: 160px;
 		display: table;
 		margin: 10px auto 0 auto;
 		transition: all 0.3s;
 	}
 	img.smaller {
-		max-width: 80px;
+		max-width: 110px;
 	}
 }
 
@@ -514,6 +514,7 @@ HEADER / NAVIGATION
 	border-top: 1px solid $dark-grey;
 	border-bottom: 1px solid $dark-grey;
 
+
 	.retailer-logo-container {
 		width: 100%;
 		text-align: center;
@@ -529,11 +530,11 @@ HEADER / NAVIGATION
 			border: 1px solid $grey;
 			color: $light-black;
 			padding: 0rem 1rem 1rem 1rem;
-			text-align: left;
-			min-width: 200px;
+			text-align: center;
+			width: 100%;
 			transition: opacity 0.15s ease;
 			opacity: 0;
-			bottom: 90px;
+			bottom: 90%;
 			z-index: 999;
 			box-shadow: 2px 10px 10px rgba(0,0,0,0.15);
 			
@@ -550,6 +551,9 @@ HEADER / NAVIGATION
 			    border-right: solid 10px transparent;
 			}
 
+			p {
+				margin: 5px 0;
+			}
 		}
 
 		.retailer-opening-hours.visible {
@@ -694,6 +698,15 @@ HEADER / NAVIGATION
 			vertical-align: middle;
 			max-width: 140px;
 			padding: 1rem;
+
+			a {
+				color: $white;
+				text-decoration: none;
+				
+				&:hover {
+					color: $teal;
+				}
+			}
 		}
 	}
 }

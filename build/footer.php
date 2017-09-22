@@ -1,11 +1,17 @@
         <footer class="main-footer">
             <div class="flexGridRow">
                 <div class="cell cell--oneQuarter">
-                    <address>
-                        Q super Centre <br />
+                    <p><address>
+                        Q Super Centre <br />
                         Cnr Bermuda &amp; Markeri Streets <br />
+                        Mermaid Waters QLD 4218                        
+                    </address></p>
+                </div>
+                <div class="cell cell--oneQuarter">
+                    <p><adress>
+                        P.O BOX 5753 <br/>
                         Mermaid Waters QLD 4218
-                    </address>
+                    </adress></p>
                 </div>
                 <div class="cell cell--oneQuarter">
                     <p>
@@ -13,7 +19,6 @@
                         Email: <a href="mailto:qsupercentre@jen.com.au">qsupercentre@jen.com.au</a>
                     </p>
                 </div>
-                <div class="cell cell--oneQuarter"></div><!-- Spacing only -->
                 <div class="cell cell--oneQuarter">
                     <p>
                         We are a DOG FRIENDLY centre.

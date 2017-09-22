@@ -56,17 +56,17 @@
             </header>
             <nav class="mobile-navigation">
                 <ul>
-                    <li><a class="active" href="#">Home</a></li>
+                    <li><a class="active" href="front-page.php">Home</a></li>
                     <li><a href="#">Store Directory</a></li>
-                    <li><a href="#">About Q</a>
+                    <li><a href="page.php">About Q</a>
                         <ul>
-                            <li><a href="whats-on.html">What's on at Q</a></li>
-                            <li><a href="#">Dogs at Q</a></li>
-                            <li><a href="#">Leasing</a></li>
+                            <li><a href="index.php">What's on at Q</a></li>
+                            <li><a href="page.php">Dogs at Q</a></li>
+                            <li><a href="page.php">Leasing</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Photo Galleries</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="page-gallery.php">Photo Galleries</a></li>
+                    <li><a href="page.php">Contact</a></li>
                 </ul>
             </nav>
             <!-- HEADER / NAVIGATION -->
@@ -86,7 +86,7 @@
                     
                     <div class="cell">
                         <div class="logo-container">
-                            <img src="images/qsupercentre_logo_white.svg" alt="Q Super Centre Logo"/>
+                           <a href="front-page.php"><img src="images/qsupercentre_logo_white.svg" alt="Q Super Centre Logo"/></a>
                         </div>
                     </div><!-- end cell -->
 
@@ -145,17 +145,17 @@
 
             <nav class="header-navigation">
                 <ul>
-                    <li><a class="active" href="#">Home</a></li>
+                    <li><a class="active" href="front-page.php">Home</a></li>
                     <li><a href="#">Store Directory</a></li>
-                    <li><a href="#">About Q</a>
+                    <li><a href="page.php">About Q</a>
                         <ul>
-                            <li><a href="whats-on.html">What's on at Q</a></li>
-                            <li><a href="#">Dogs at Q</a></li>
-                            <li><a href="#">Leasing</a></li>
+                            <li><a href="index.php">What's on at Q</a></li>
+                            <li><a href="page.php">Dogs at Q</a></li>
+                            <li><a href="page.php">Leasing</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Photo Galleries</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="page-gallery.php">Photo Galleries</a></li>
+                    <li><a href="page.php">Contact</a></li>
                 </ul>
             </nav>
         </div><!-- end fixed-header -->
