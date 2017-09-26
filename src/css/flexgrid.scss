@@ -161,8 +161,16 @@ Media Queries
 		flex: 0 0 100%;
 	}
 
+	.cell--twoThirds--mobile {
+		flex: 0 0 66.6666%;
+	}
+
 	.cell--half {
 		flex: 0 0 100%;
+	}
+
+	.cell--half--mobile {
+		flex: 0 0 50%;
 	}
 
 	.cell--third {

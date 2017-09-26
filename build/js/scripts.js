@@ -15,10 +15,16 @@ $("#hamburger-menu").click(function(){
 })
 
 $(".header-navigation > ul > li:has(ul)").addClass("has-sub-menu");
+$(".mobile-navigation > ul > li:has(ul)").addClass("has-sub-menu");
 
 $(".has-sub-menu > a").append("<i class='fa fa-caret-down inline-icon' aria-hidden='true'></i>");
 
-$(".opening-times-container").click(function(){
+// Mobile submenu toggle
+$(".mobile-navigation .has-sub-menu").click(function(){
+	$(this).find("ul").toggleClass("active");
+})
+
+$(".opening-times-block").click(function(){
 	$(".opening-times-pop-out").toggleClass("open");
 });
 

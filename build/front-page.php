@@ -12,13 +12,12 @@
             </div>
         </div><!-- unslider-container -->
 
-        <div class="mobile-header-container">
+        <div class="mobile-header-container" style="background-image: url(images/banner-mobile.jpg)">
             <div class="mobile-header-message">
                 <h6>Welcome to</h6>
-                <hr class="short" />
                 <h2>Q Super Centre</h2>
+                <p>The only dog friendly shopping centre on the Gold Coast.</p>
             </div>
-            <img src="images/banner-mobile.jpg" alt="Q Home Banner Mobile" />
         </div>
         
         <main class="front-page-main">

@@ -196,10 +196,20 @@ Media Queries
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
   }
+  .cell--twoThirds--mobile {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.6666%;
+            flex: 0 0 66.6666%;
+  }
   .cell--half {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
+  }
+  .cell--half--mobile {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
   }
   .cell--third {
     -webkit-box-flex: 0;

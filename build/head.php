@@ -31,20 +31,12 @@
             <!-- Mobile Header -->
             <header class="mobile-header">
                 <div class="flexGridRow">
-                    <div class="cell cell--third--mobile">
-                        <div class="clock-icon">
-                            <span><i class="fa fa-clock-o" aria-hidden="true"></i></span>
-                        </div>
-                        <a href="tel: 07 5563 4888" class="mobile-icon">
-                           <i class="fa fa-phone" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <div class="cell cell--third--mobile">
+                    <div class="cell cell--half--mobile">
                         <div class="logo-container">
                             <img src="images/qsupercentre_logo_white.svg" alt="Q Super Centre Logo"/>
                         </div>
                     </div>
-                    <div class="cell cell--third--mobile">
+                    <div class="cell cell--half--mobile">
                         <div id="hamburger-menu">
                             <span></span>
                             <span></span>
@@ -54,11 +46,28 @@
                     </div>
                 </div>
             </header>
+
+            <!-- Mobile Subheader -->
+            <section class="mobile-subheader">
+                <div class="flexGridRow">
+                    <div class="cell cell--twoThirds--mobile opening-times-block">
+                        <span>Open Today <span class="today-time">9:30 - 5:30</span>
+                            <i class='fa fa-caret-down inline-icon' aria-hidden='true'></i></span>
+                    </div>
+                    <div class="cell cell--third--mobile call-us-block">
+
+                        <a href="tel: 07 5563 4888" class="mobile-icon">
+                           Call us <i class="fa fa-phone" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
             <nav class="mobile-navigation">
                 <ul>
                     <li><a class="active" href="front-page.php">Home</a></li>
                     <li><a href="#">Store Directory</a></li>
-                    <li><a href="page.php">About Q</a>
+                    <li><a href="#">About Q</a>
                         <ul>
                             <li><a href="index.php">What's on at Q</a></li>
                             <li><a href="page.php">Dogs at Q</a></li>

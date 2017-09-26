@@ -19,7 +19,7 @@
             <div class="flexGridRow flexGridRow--wrap">
                 <div class="cell cell--half">
                     <article class="whats-on-story-box">
-                        <div class="image-circle-crop" style="background-image: url(../images/temp-images/subway.jpg);">
+                        <div class="image-circle-crop" style="background-image: url(images/temp-images/subway.jpg);">
                         </div>
                         <div class="whats-on-details">
                             <h5>Subway Wrap Deal!</h5>
@@ -30,7 +30,7 @@
                 </div><!-- end col-half -->
                 <div class="cell cell--half">
                     <article class="whats-on-story-box">
-                        <div class="image-circle-crop" style="background-image: url(../images/temp-images/cobbler.jpg);">
+                        <div class="image-circle-crop" style="background-image: url(images/temp-images/cobbler.jpg);">
                         </div>
                         <div class="whats-on-details">
                             <h5>Q Cobblers joins the Q family!</h5>
@@ -41,7 +41,7 @@
                 </div><!-- end col-half -->
                 <div class="cell cell--half">
                     <article class="whats-on-story-box">
-                        <div class="image-circle-crop" style="background-image: url(../images/temp-images/jersey-mike.jpg);">
+                        <div class="image-circle-crop" style="background-image: url(images/temp-images/jersey-mike.jpg);">
                         </div>
                         <div class="whats-on-details">
                             <h5>Jersey Mike’s subs daily specials</h5>
